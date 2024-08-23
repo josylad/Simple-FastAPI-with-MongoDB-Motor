@@ -23,8 +23,11 @@ To use this App you need to have some few prerequisites.
 1. Installing FastAPI and other Modules
 
     `python3 -m venv virtual`
+
     **Activate Virtual Environment**
+
     `source virtual/bin/activate`
+
 * RUN:
     `pip install -r requirements.txt`
     `export PYTHONPATH=$PWD`
