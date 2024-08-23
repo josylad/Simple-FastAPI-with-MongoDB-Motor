@@ -1,6 +1,6 @@
 # A FastAPI with MongoDB, Motor and Pydantic
 
-This is a CRUD API that stores and retrieves data from MongoDB Atlas.
+This is a CRUD API that stores and retrieves data from a MongoDB Atlas database.
 
 ## **SETUP/INSTALLATION.**
 ### Prerequisites
