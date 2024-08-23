@@ -41,13 +41,13 @@ To use this App you need to have some few prerequisites.
  - Create a collection
  - Get the database URL 
 
-   - mongodb+srv://<user>:<password>@<database>:<port>/<collection>?retryWrites=true&w=majority&appName=<yourAppName>"
+   - `mongodb+srv://<user>:<password>@<database>:<port>/<collection>?retryWrites=true&w=majority&appName=<yourAppName>"`
 
 
 3. **Create a .env file and add MongoDB URL (`MONGO_URL`)**
 
     `touch .env`
-    
+
     `echo "MONGO_URL=mongodb+srv://<user>:<password>@<database>:<port>/<collection>?retryWrites=true&w=majority&appName=<yourAppName>" >> .env`
 
 4. Run `python app/main.py`
