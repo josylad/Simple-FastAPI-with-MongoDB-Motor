@@ -33,7 +33,7 @@ To use this App you need to have some few prerequisites.
     `export PYTHONPATH=$PWD`
 * All required applications should be installed now.
 
-2. Set up MongoDB Atlas. 
+2. **Set up MongoDB Atlas.**
  - Go to [MongoDB Atlas](https://www.mongodb.com/atlas)
  - Create an account
  - Create a project
@@ -44,7 +44,7 @@ To use this App you need to have some few prerequisites.
    - mongodb+srv://<user>:<password>@<database>:<port>/<collection>?retryWrites=true&w=majority&appName=<yourAppName>"
 
 
-3. Create a .env file and add MongoDB URL (`MONGO_URL`)
+3. **Create a .env file and add MongoDB URL (`MONGO_URL`)**
 
     `touch .env`
     `echo "MONGO_URL=mongodb+srv://<user>:<password>@<database>:<port>/<collection>?retryWrites=true&w=majority&appName=<yourAppName>" >> .env`
