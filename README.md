@@ -27,6 +27,7 @@ To use this App you need to have some few prerequisites.
     `source virtual/bin/activate`
 * RUN:
     `pip install -r requirements.txt`
+    `export PYTHONPATH=$PWD`
 * All required applications should be installed now.
 
 2. Set up MongoDB Atlas. 
